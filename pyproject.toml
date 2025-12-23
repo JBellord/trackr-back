@@ -1,0 +1,22 @@
+[project]
+name = "trackr-back"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "JBellord",email = "work.johnbellooro@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.2.8,<6.0.0)",
+    "djangorestframework (>=3.16.1,<4.0.0)",
+    "django-cors (>=0.1,<0.2)",
+    "dj-rest-auth[with-social] (>=7.0.1,<8.0.0)",
+    "djangorestframework-simplejwt (>=5.5.1,<6.0.0)",
+    "drf-nested-routers (>=0.95.0,<0.96.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
